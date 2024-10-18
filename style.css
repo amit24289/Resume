@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumbhar Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .resume {
+            background-color: white;
+            padding: 20px;
+            width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .contact-info, .skills, .languages, .interests {
+            margin-bottom: 20px;
+        }
+
+        .contact-info div, .skills div, .languages div, .interests div {
+            margin-bottom: 5px;
+        }
+
+        .projects, .experience {
+            margin-bottom: 20px;
+        }
+
+        .resume ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .resume ul li {
+            margin-bottom: 10px;
+        }
+
+        .skills-list, .languages-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills-list div, .languages-list div {
+            background-color: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .resume a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .resume a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <h1>Amit Kumbhar</h1>
+        <div class="contact-info">
+            <div>Email: <a href="mailto:amitkumbhar601@gmail.com">amitkumbhar601@gmail.com</a></div>
+            <div>Phone: 9421987231</div>
+            <div>Location: Pune, India</div>
+            <div>LinkedIn: <a href="https://linkedin.com/in/amit-kumbhar-9686051a4" target="_blank">linkedin.com/in/amit-kumbhar</a></div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div>Electrical Engineering - JSPM's Jayawantrao Sawant College of Engineering, Pune (08/2018 - 06/2023)</div>
+            <div>CGPA: 7.50</div>
+            <div>12th - Dr. Chandrabhanu Sonwane Jr. College, Latur (06/2017 - 05/2018)</div>
+            <div>Grade: 54.42%</div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div class="experience">
+                <h3>Internship - Accenture North America Data Analytics and Visualization (01/2024 - 04/2024)</h3>
+                <ul>
+                    <li>Completed simulation advising a hypothetical social media client as a Data Analyst.</li>
+                    <li>Cleaned, modeled, and analyzed 7 datasets to uncover insights into content trends.</li>
+                    <li>Prepared presentations to communicate key insights for stakeholders.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>Internship - Eespite Enterprise (08/2021 - 09/2021)</h3>
+                <ul>
+                    <li>Defined project scope, objectives, and identified stakeholders' requirements.</li>
+                    <li>Created preliminary sketches and designs using AutoCAD tools.</li>
+                    <li>Performed calculations and validated design feasibility.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div>Python</div>
+                <div>Microsoft Excel</div>
+                <div>SQL</div>
+                <div>Power BI</div>
+                <div>Tableau</div>
+                <div>Data Visualization</div>
+                <div>Problem Solving</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Personal Projects</h2>
+            <div class="projects">
+                <h3>PLC-Based 7-Tank Process (08/2022 - 06/2023)</h3>
+                <ul>
+                    <li>Automated the manual pre-treatment process of powder coating to reduce labor and recurring costs.</li>
+                </ul>
+                <h3>Pizza Place Sale - Data Analysis (06/2023 - 07/2023)</h3>
+                <ul>
+                    <li>Analyzed sales and ordering patterns at a fictional pizza restaurant using advanced Excel.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Beginner to Advance Excel (05/2023 - 07/2023)</li>
+                <li>Data Analytics Workshop (01/2023)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <div class="languages-list">
+                <div>English (Full Professional Proficiency)</div>
+                <div>Hindi (Full Professional Proficiency)</div>
+                <div>Marathi (Full Professional Proficiency)</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Interests</h2>
+            <div class="interests-list">
+                <div>Travelling</div>
+                <div>Outdoor games</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
